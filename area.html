@@ -12,20 +12,18 @@
             Calculate Area
         </h1>
         <div class="discription">
-            Select an option below as per the data you have for a triangle
+            Enter the base and side of a  triangle
         </div>
-    <form  class="option-selector">
-        <div class="option">
-           
-            <input type="radio" name="option" value="calAreaoption1" class="calArea1">
-            <label for="calArea1" class="label">if you have base and height length</label>
-           <input type="radio" name="option" value="calAreaoption2" class="calArea2">
-           <label for="calArea2" class="label">if you have length of 3 sides</label>
-           <input type="radio" name="option" value="calAreaoption3" class="calArea3">
-           <label for="calArea3" class="label">if you have length of 2 sides and an included angle</label>
-        </div> 
-    </form>
-
+        <label for="base" class="base-label">base=</label>
+              <input type="number" class="base-input">
+           <label for="side" class="side-label">height=</label>
+              <input type="number" class="side-input">
+              <button class="submit-btn">Submit</button>
+              <div class="output-discription">Area will be calculated and shown here:</div>
+              <div class="output"></div>
+              
+      </div>
+      <script src="area.js" type="text/javascript"></script>
          
 
 
