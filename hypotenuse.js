@@ -8,10 +8,6 @@ outPut.innerText="C=√(a² + b²)";
 
 
 
-
-
-
-
 function clickEvent()
 {
     var a=sideInput[0].value;
