@@ -4,7 +4,7 @@ const submitBtn = document.querySelector(".submit-btn");
 const outPut = document.querySelector(".output");
 
 
-outPut.innerText="C=√(a² + b²)";
+ outPut.innerText="C=√(a² + b²)";
 
 
 
@@ -19,7 +19,7 @@ function clickEvent()
     outPut.innerText = c;
     }
     else {
-        outPut.innerText="please enter some valid input";  
+        outPut.innerText="⚠Please enter some valid input";  
     }
 }
 

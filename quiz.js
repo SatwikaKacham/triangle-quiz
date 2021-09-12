@@ -4,6 +4,7 @@ const checkBtn = document.querySelector(".check-btn");
 const outPut = document.querySelector(".output");
 const correctAns  = ["isosceles-rightangle","360","6","Obtuse","Scalene"];
 var score=0;
+
 function calculateScore()
 {
    
@@ -11,25 +12,26 @@ function calculateScore()
 var formResults = new FormData(quizQns);
 
  for(let value of formResults.values())
- { 
-     if(value!=="")
-     {   return score;
-     if(value===correctAns[index])
-     { 
+ {  console.log(value);
+    //  if(value===correctAns[0])
+    //  {   return score;
+              if(value===correctAns[index])
+             { 
         
-         score++;
-     }
-      index++;
-    }   
+              score++;
+               }
+              index++;
+    //    }   
      
     
-    else {
+    // else {
 
-        outPut.innerText = "Hey! it's ok if u don't know the answers . Fill all mcq's";
-    }
+    //     outPut.innerText = "Hey! it's ok if u don't know the answers . Fill all mcq's";
+    // }
 }
 return score;
 }
+
   
 function  clickEvent()
 {

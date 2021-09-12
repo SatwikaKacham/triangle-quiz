@@ -20,7 +20,7 @@ function findIsItaTriangle(){
         }
         else
         {
-        outputText = "oh know ! it is not a triangle😥";
+        outputText = "Oh know ! it is not a triangle😥";
         }
     }
     else 
