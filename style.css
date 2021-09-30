@@ -64,6 +64,7 @@ text-align: right;
    text-align: center;
    font-weight: 500;
    font-size: 1.5rem;
+   flex-grow: 1; 
     
 }
 .is-triangle,.hypotenuse,.area,.quiz{
@@ -75,7 +76,7 @@ text-align: right;
    
     width: 6rem;
     height : 5rem;
-    flex-grow: 1;
+     
     margin : 1.8rem;
 }
 .is-triangle:hover,.hypotenuse:hover,.area:hover,.quiz:hover{
@@ -200,12 +201,31 @@ font-size: 25px;
    .item-link{
        margin-left: -20%;
    }
+   .tri-foot,.hyp-foot,.area-foot,.index-foot{
+   
+    padding :0.3rem; 
+     text-align: center;
+     background-color: var(--primary);
+     border-top-left-radius: 0.5rem;
+     position: relative;
+ }
+ .is-triangle,.hypotenuse,.area,.quiz{
+
+    width : 8rem;
+    height: 6rem;
     
+ }
+
     .container{
         width : 10rem;
     }
-    .is-triangle,.hypotenuse,.area,.quiz{
-        flex-grow: 1;
+    .container-istriangle,.container-hyp,.container-area{
+       width:18rem ;
+   
     }
+    .container-quiz{
+        width:18rem ;
+    }
+
 
   }
